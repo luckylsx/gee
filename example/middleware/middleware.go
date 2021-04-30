@@ -7,6 +7,7 @@ import (
 	"github.com/luckylsx/gee"
 )
 
+// Logger logger
 func Logger() gee.HandlerFunc {
 	return func(c *gee.Context) {
 		// Start timer
